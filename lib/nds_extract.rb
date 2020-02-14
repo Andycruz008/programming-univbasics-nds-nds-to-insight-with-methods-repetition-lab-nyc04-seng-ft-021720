@@ -27,13 +27,11 @@ end
 def list_of_directors(source)
   keys=[]
   row=0
-  col = 0
   while row < source.length
-  source[col][:name] do |name,value|
+  source[row].each do |name,value|
   keys << value
   row+=1
 end
-col+=1
 end
   
   keys
