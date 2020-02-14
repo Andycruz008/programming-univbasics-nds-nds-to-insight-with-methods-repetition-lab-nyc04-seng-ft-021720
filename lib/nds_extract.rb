@@ -48,8 +48,8 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
 
-
- list_of_directors(directors_totals(source))
+ hashnew = directors_totals(source)
+ list_of_directors(hashnew)
  
  end
 
